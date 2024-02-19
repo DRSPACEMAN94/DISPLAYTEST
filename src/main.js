@@ -3,9 +3,9 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import SplineLoader from '@splinetool/loader';
 
 // camera
-const camera = new THREE.OrthographicCamera(window.innerWidth / - 2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / - 2,  -50000, 10000);
-camera.position.set(0, 0, 0);
-camera.quaternion.setFromEuler(new THREE.Euler(0, 0, 0));
+const camera = new THREE.OrthographicCamera(window.innerWidth / - 2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / - 2,  -100000, 100000);
+camera.position.set(-21.12, 323.2, 1532.84);
+camera.quaternion.setFromEuler(new THREE.Euler(-0.03, 0.01, 0));
 
 // scene
 const scene = new THREE.Scene();
